@@ -67,13 +67,14 @@ io.sockets.on('connection', function (socket) {
         if (!error) console.log(stdout);
       });
 
+      /*
       rfEmitter.sendCode(steckdosen.b.on, function (error, stdout) {
         if (!error) console.log(stdout);
       });
 
       rfEmitter.sendCode(steckdosen.b.on, function (error, stdout) {
         if (!error) console.log(stdout);
-      });
+      });*/
 
     } else {
 
@@ -82,13 +83,14 @@ io.sockets.on('connection', function (socket) {
         if (!error) console.log(stdout);
       });
 
+      /*
       rfEmitter.sendCode(steckdosen.b.off, function (error, stdout) {
         if (!error) console.log(stdout);
       });
 
       rfEmitter.sendCode(steckdosen.b.off, function (error, stdout) {
         if (!error) console.log(stdout);
-      });
+      });*/
 
     }
   });
@@ -106,13 +108,14 @@ io.sockets.on('connection', function (socket) {
         if (!error) console.log(stdout);
       });
 
+      /*
       rfEmitter.sendCode(steckdosen.c.on, function (error, stdout) {
         if (!error) console.log(stdout);
       });
 
       rfEmitter.sendCode(steckdosen.c.on, function (error, stdout) {
         if (!error) console.log(stdout);
-      });
+      });*/
 
     } else {
 
@@ -121,13 +124,14 @@ io.sockets.on('connection', function (socket) {
         if (!error) console.log(stdout);
       });
 
+      /*
       rfEmitter.sendCode(steckdosen.c.off, function (error, stdout) {
         if (!error) console.log(stdout);
       });
 
       rfEmitter.sendCode(steckdosen.c.off, function (error, stdout) {
         if (!error) console.log(stdout);
-      });
+      });*/
 
     }
   });
@@ -144,13 +148,14 @@ io.sockets.on('connection', function (socket) {
         if (!error) console.log(stdout);
       });
 
+      /*
       rfEmitter.sendCode(steckdosen.d.on, function (error, stdout) {
         if (!error) console.log(stdout);
       });
 
       rfEmitter.sendCode(steckdosen.d.on, function (error, stdout) {
         if (!error) console.log(stdout);
-      });
+      });*/
 
     } else {
 
@@ -159,13 +164,14 @@ io.sockets.on('connection', function (socket) {
         if (!error) console.log(stdout);
       });
 
+      /*
       rfEmitter.sendCode(steckdosen.d.off, function (error, stdout) {
         if (!error) console.log(stdout);
       });
 
       rfEmitter.sendCode(steckdosen.d.off, function (error, stdout) {
         if (!error) console.log(stdout);
-      });
+      });*/
 
     }
   });
