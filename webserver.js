@@ -62,35 +62,17 @@ io.sockets.on('connection', function (socket) {
 
     if (switcher) {
 
-      // if true, turn on (send 3 times for safety)
+      // if true, turn on 
       rfEmitter.sendCode(steckdosen.b.on, function (error, stdout) {
         if (!error) console.log(stdout);
       });
-
-      /*
-      rfEmitter.sendCode(steckdosen.b.on, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });
-
-      rfEmitter.sendCode(steckdosen.b.on, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });*/
 
     } else {
 
-      // if false, turn off (send 3 times for safety)
+      // if false, turn off 
       rfEmitter.sendCode(steckdosen.b.off, function (error, stdout) {
         if (!error) console.log(stdout);
       });
-
-      /*
-      rfEmitter.sendCode(steckdosen.b.off, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });
-
-      rfEmitter.sendCode(steckdosen.b.off, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });*/
 
     }
   });
@@ -103,35 +85,17 @@ io.sockets.on('connection', function (socket) {
 
     if (switcher) {
 
-      // if true, turn on (send 3 times for safety)
+      // if true, turn on 
       rfEmitter.sendCode(steckdosen.c.on, function (error, stdout) {
         if (!error) console.log(stdout);
       });
-
-      /*
-      rfEmitter.sendCode(steckdosen.c.on, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });
-
-      rfEmitter.sendCode(steckdosen.c.on, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });*/
 
     } else {
 
-      // if false, turn off (send 3 times for safety)
+      // if false, turn off 
       rfEmitter.sendCode(steckdosen.c.off, function (error, stdout) {
         if (!error) console.log(stdout);
       });
-
-      /*
-      rfEmitter.sendCode(steckdosen.c.off, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });
-
-      rfEmitter.sendCode(steckdosen.c.off, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });*/
 
     }
   });
@@ -143,35 +107,17 @@ io.sockets.on('connection', function (socket) {
 
     if (switcher) {
 
-      // if true, turn on (send 3 times for safety)
+      // if true, turn on 
       rfEmitter.sendCode(steckdosen.d.on, function (error, stdout) {
         if (!error) console.log(stdout);
       });
-
-      /*
-      rfEmitter.sendCode(steckdosen.d.on, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });
-
-      rfEmitter.sendCode(steckdosen.d.on, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });*/
 
     } else {
 
-      // if false, turn off (send 3 times for safety)
+      // if false, turn off 
       rfEmitter.sendCode(steckdosen.d.off, function (error, stdout) {
         if (!error) console.log(stdout);
       });
-
-      /*
-      rfEmitter.sendCode(steckdosen.d.off, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });
-
-      rfEmitter.sendCode(steckdosen.d.off, function (error, stdout) {
-        if (!error) console.log(stdout);
-      });*/
 
     }
   });
