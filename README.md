@@ -1,9 +1,26 @@
 # SmartPi
-Control your 433mhz receivers from a web interface with a Raspberry Pi
+Control your 433MHz receivers from a web interface with a Raspberry Pi
 
 
 ## Software
 This is a project made with **Node.js** so you will need it installed on your Pi.
+
+
+### How to install WiringPi:
+
+To get the application running you will first need to install WiringPi. 
+
+More infos: https://projects.drogon.net/raspberry-pi/wiringpi/
+
+``` $ git clone git://git.drogon.net/wiringPi ```
+
+``` $ cd wiringPi/wiringPi ```
+
+``` $ sudo su ```
+
+``` $ ./build ```
+
+### Getting started
 
 To clone this repository just simply run:
 
@@ -19,7 +36,7 @@ Your wireless receiver you are looking forward to control may have different cod
 
 ## Hardware
 You don't necessarily need a Raspberry Pi for this but I recommend it because you will always find help on the internet by its big community.
-You also need a 433mHz emitter. The data pin is wired to the physical pin 11 of the Pi. You can change this of course but make sure to also change the pin allocation in the code.
+You also need a 433MHz emitter. The data pin is wired to the physical pin 11 of the Pi. You can change this of course but make sure to also change the pin allocation in the code.
 
 
 Have fun with the project and don't hesitate to improve it ;)
