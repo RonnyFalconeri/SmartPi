@@ -32,7 +32,7 @@ To run the webserver open the SmartPi directory and run:
 
 I recommend to set up a startscript which runs the server automaticly after booting. [Here](https://www.instructables.com/id/Nodejs-App-As-a-RPI-Service-boot-at-Startup/ "Title") is a link to a guide on how to do it.
 
-Your wireless receiver you are looking forward to control may have different codes to be turned on. In this case you will need to sniff the code your remote control is sending in order to send it again with the Pi. [Here](https://www.princetronics.com/how-to-read-433-mhz-codes-w-raspberry-pi-433-mhz-receiver/ "Title") is a link on how to do it.
+Your wireless receiver you are looking forward to control may have different codes to be turned on. In this case you will need to sniff the code your remote control is sending in order to send it again with the Pi. [Here](https://www.princetronics.com/how-to-read-433-mhz-codes-w-raspberry-pi-433-mhz-receiver/ "Title") is a link on how to do it, **or** just usw my other project 'RF_Sniffer' which is an application just for sniffing 433MHz signals.
 
 ## Hardware
 You don't necessarily need a Raspberry Pi for this but I recommend it because you will always find help on the internet by its big community.
