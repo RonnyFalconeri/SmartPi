@@ -24,7 +24,7 @@ More infos: https://projects.drogon.net/raspberry-pi/wiringpi/
 
 To clone this repository just simply run:
 
-``` $ git pull https://github.com/RonnyFalconeri/SmartPi.git ```
+``` $ git clone https://github.com/RonnyFalconeri/SmartPi.git ```
   
 To run the webserver open the SmartPi directory and run:
 
